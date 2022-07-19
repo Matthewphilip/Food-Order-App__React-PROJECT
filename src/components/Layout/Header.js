@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+
+import HeaderCartButton from "./HeaderCartButton";
 import mealsImage from "../../assets/meals.jpg";
 import classes from "./Header.module.css";
 
@@ -7,7 +9,7 @@ const Header = (props) => {
     <Fragment>
       <header className={classes.header}>
         <h1>React Meals</h1>
-        <button>Cart</button>
+        <HeaderCartButton />
       </header>
       <div className={classes["main-image"]}>
         <img src={mealsImage} alt="A table full of delicious food!" />
@@ -18,7 +20,5 @@ const Header = (props) => {
 
 export default Header;
 
-// line 5 & 14 - using built in Fragment wrapper in the return (rather than <div>)
-
-// line 2 - import meals.jpg image from assets folder
-// line 11 - this is how to add/render a local image in the return (could also add a URL as a 'src')
+// line 3 - import HeaderCartButton
+// line 12 - replace html button with HeaderCartButton component
