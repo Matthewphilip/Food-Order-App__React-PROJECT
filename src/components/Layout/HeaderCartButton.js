@@ -14,7 +14,3 @@ const HeaderCartButton = (props) => {
 };
 
 export default HeaderCartButton;
-
-// line 1 - import CartIcon from Cart folder
-
-// line 4 - 12 - return / render the JSX displaying the imported CartIcon component, 'Your Cart' text and the total (which has been hard coded for now until we write the logic)

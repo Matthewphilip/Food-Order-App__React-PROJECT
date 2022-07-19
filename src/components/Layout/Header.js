@@ -19,6 +19,3 @@ const Header = (props) => {
 };
 
 export default Header;
-
-// line 3 - import HeaderCartButton
-// line 12 - replace html button with HeaderCartButton component
