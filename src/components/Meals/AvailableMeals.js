@@ -49,7 +49,3 @@ const AvailableMeals = () => {
 };
 
 export default AvailableMeals;
-
-// line 32 - 40 - we have mapped through the array of meals (we use the MealItem component as a wrap for display / styling)
-
-// line 44 - 46 - we have used the Card.js component in UI folder to wrap the list of available meals (import component at the top)

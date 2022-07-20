@@ -1,3 +1,4 @@
+import MealItemForm from "./MealItemForm";
 import classes from "./MealItem.module.css";
 
 const MealItem = (props) => {
@@ -10,15 +11,13 @@ const MealItem = (props) => {
         <div className={classes.description}>{props.description}</div>
         <div className={classes.price}>{price}</div>
       </div>
-      <div></div>
+      <div>
+        <MealItemForm />
+      </div>
     </li>
   );
 };
 
 export default MealItem;
 
-// props coming from AvailableMeals component (mealsList variable on line 32)
-
-// this component details how to display the list of available meals we map through within AvailableMeals component
-
-// line 13 - added a MealItemForm component to store the code / logic in a seperate component - within this second div we will have a simple form which allows users to  enter the amount of meals you want to add to the cart
+// rendered our MealItemForm component in the return
