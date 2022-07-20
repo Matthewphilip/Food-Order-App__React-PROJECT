@@ -10,7 +10,3 @@ const Input = (props) => {
 };
 
 export default Input;
-
-// reuseable input field component created for input into MealItemForm.js
-
-// props.label and props.input coming from lines 8 & 9 from MealItemForm.js

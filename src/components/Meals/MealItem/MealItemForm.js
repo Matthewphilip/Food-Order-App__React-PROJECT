@@ -21,5 +21,3 @@ const MealItemForm = (props) => {
 };
 
 export default MealItemForm;
-
-// form component created for input into MealItem.js which uses the Input component from the UI folder

@@ -19,5 +19,3 @@ const MealItem = (props) => {
 };
 
 export default MealItem;
-
-// rendered our MealItemForm component in the return
